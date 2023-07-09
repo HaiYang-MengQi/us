@@ -8,8 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>登录页面</title>
-<%--    <script src="js/jquery-3.6.0.min.js" type="text/javascript"/>--%>
+    <script src="./js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div id="info">${info}</div>

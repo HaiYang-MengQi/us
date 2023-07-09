@@ -20,5 +20,6 @@
     </environments>
     <mappers>
         <mapper resource="mapper/user_login.xml"/>
+        <mapper resource="mapper/admin_user_info.xml"/>
     </mappers>
 </configuration>

@@ -12,7 +12,7 @@ public class User_login_dao_Impl implements User_login_dao {
     @Override
     public User isUser(User user) {
         SqlSession session= MybatisUtils.getSession();
-        session.close();
+//        session.close();
         return session.selectOne("user_Login",user);
     }
 }
