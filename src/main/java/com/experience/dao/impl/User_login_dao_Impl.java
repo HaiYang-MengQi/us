@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 public class User_login_dao_Impl implements User_login_dao {
 
     @Override
-    public User isUser(User user) {
+    public User getUser_Dao(User user) {
         SqlSession session= MybatisUtils.getSession();
 //        session.close();
         return session.selectOne("user_Login",user);

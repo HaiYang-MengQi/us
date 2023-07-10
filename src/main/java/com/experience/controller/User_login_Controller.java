@@ -16,8 +16,8 @@ public class User_login_Controller {
     @Autowired
     private User_login_service user_login_service;
     @RequestMapping(value = {"/login","/userLogin"})
-    private String login(User user, HttpSession session,HttpServletResponse response) throws IOException {
-       User u = user_login_service.getUser(user);
+    private String login(User user, HttpSession session,HttpServletResponse response) throws IOException {// TODO 需要将此优化为类转化对象的传入方式,且设置@RequestParam属性指定必须要有的参数
+       User u = user_login_service.getUser_Service(user);
        if(u!=null){session.setAttribute("user",u);return "redirect:main.jsp";}
         else {
            Object info = null;

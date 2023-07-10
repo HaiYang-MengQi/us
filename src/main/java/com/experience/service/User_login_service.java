@@ -5,5 +5,5 @@ import org.springframework.stereotype.Service;
 
 
 public interface User_login_service {
-     User getUser(User user);
+     User getUser_Service(User user);
 }

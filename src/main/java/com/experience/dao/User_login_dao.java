@@ -16,5 +16,5 @@ public interface User_login_dao {
             @Result(property = "address", column = "address"),
             @Result(property = "word", column = "word")
     })
-     User isUser(User user);
+     User getUser_Dao(User user);
 }

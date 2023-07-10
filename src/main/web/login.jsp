@@ -20,5 +20,6 @@
         <input type="submit" value="提交">
         <input type="reset" value="清空">
     </form>
+    <a href="register.jsp">注册</a>
 </body>
 </html>

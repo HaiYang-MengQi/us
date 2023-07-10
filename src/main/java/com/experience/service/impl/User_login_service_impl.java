@@ -11,7 +11,7 @@ public class User_login_service_impl implements User_login_service {
     @Autowired
     User_login_dao userLoginDao;
     @Override
-    public User getUser(User user) {
-        return userLoginDao.isUser(user);
+    public User getUser_Service(User user) {
+        return userLoginDao.getUser_Dao(user);
     }
 }

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class User_find_dao_impl implements User_find_dao {
     @Override
-    public void findUser() {
+    public void findUser() {//FIXME 需要改名字
 
         SqlSession session= MybatisUtils.getSession();
         Integer[] integers={1,2,3,4,5,6,7,8,9};
