@@ -26,5 +26,6 @@
         <mapper resource="mapper/admin_user_info.xml"/>
         <mapper resource="mapper/user_register.xml" />
         <mapper resource="mapper/user_modify.xml" />
+        <mapper resource="mapper/user_cancel.xml" />
     </mappers>
 </configuration>

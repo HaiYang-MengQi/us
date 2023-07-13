@@ -12,5 +12,6 @@
 </head>
 <body>
     <a href="modify.jsp">修改账户</a>
+    <a href="cancel.jsp">注销用户</a>
 </body>
 </html>
